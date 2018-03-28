@@ -13,7 +13,7 @@ class KafkaLoggingConsumer(bootstrapServer: String, topics: List<String>) {
     private val bootstrapServer = bootstrapServer
     private val topics = topics
 
-    private fun consume() {
+    fun consume() {
 
         logger.info("Consuming started")
 
