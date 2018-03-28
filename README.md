@@ -7,7 +7,9 @@ The application reads one or more Kafka topics and logs the received messages to
 
 Usage:
 ---
-To start call `docker-compose up`
+To build: `gradle build docker`
+
+To start: `docker-compose up`
 
 Configuration
 ---
