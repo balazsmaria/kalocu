@@ -1,0 +1,11 @@
+version: '2'
+services:
+  kalocu:
+    image: kalocu
+    environment:
+      BOOTSTRAP_SERVERS: "kafka:9092"
+      TOPICS: "raw_sales"
+networks:
+  default:
+    external:
+      name: localhost_default
