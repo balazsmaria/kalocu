@@ -1,4 +1,4 @@
-# kalocu
+# kalocu [![Build Status](https://travis-ci.org/balazsmaria/kalocu.svg?branch=master)](https://travis-ci.org/balazsmaria/kalocu)
 
 Overview
 ---
